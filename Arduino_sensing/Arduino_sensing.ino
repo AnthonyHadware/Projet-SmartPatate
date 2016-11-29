@@ -95,11 +95,11 @@ PlottArray(1,freq,results);
 
    if (amp< 500 && amp< 700)  //définition de l'intervalle
     {nbdoigts=0;}
-   if (amp> 215 && amp< 240)
+   if (amp> 215 && amp< 239)
     {nbdoigts=1;}
-   if (amp> 241 && amp< 260)
+   if (amp> 240 && amp< 256)
     {nbdoigts=2;}
-   if (amp> 261&& amp< 500)
+   if (amp> 257 && amp< 500)
     {nbdoigts=3;}
 
  switch (nbdoigts)
